@@ -1,0 +1,42 @@
+
+.interface {
+    margin:auto;
+    width: 80%;
+    height: 800px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    background: black;
+    color:snow;
+    font-family: Calibri;
+    padding: 18px;
+    box-shadow: 10px 10px 10px #4f4f4f4f;
+
+}
+.btn {
+    width: 120px;
+    height: 60px;
+    background: #333;
+    border-radius: 20%;
+    text-align: center;
+    line-height: 60px;
+    font-size:1.5rem;
+    cursor: pointer;
+    user-select: none;
+}
+.btn:hover{
+    filter:brightness(120%);  
+}
+.btn:active{
+    filter: contrast(120%);
+}
+.btn.bg-gray{
+    background: slategrey;
+}
+.main_class{
+    margin:auto;
+    height: 100%;
+    width: 100%;
+    
+    background:url("../res/ytka.jpg");
+    background-size: 100%;
+}
