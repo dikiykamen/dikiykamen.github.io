@@ -1,0 +1,72 @@
+.interface{
+    
+    width: auto;
+    height: auto;
+    border-radius: 5%;
+    background: black;
+    display: grid;
+    gap: 20px;
+    grid-template-rows: 50px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px #4f4f4f4f;
+}
+.btn{
+    width: 90px;
+    height: 25px;
+    display: grid;
+    gap: 2px;
+    grid-template-rows: 50px;
+    font-size: 1.5rem;
+    color:white;
+    font-family: Calibri; 
+    border-radius: 15px;
+    line-height: 20px;
+    cursor: pointer;
+    user-select: none;
+}
+.btn:hover{
+    filter:brightness(120%)
+}
+.btn:active{
+    filter:brightness(50%)
+}
+.btn.bg-smoke{
+    background-color: silver;
+}
+.text{
+    font-size: 1.5rem;
+    color:white;
+    font-family: Calibri; 
+}
+.main_text{
+    font-size:1rem;
+    color:white;
+    font-family: Calibri;
+}
+h6{
+    display: grid;
+    gap: 20px;
+    grid-template-rows: px;
+}
+.main_contact{
+    margin:auto;
+    height: 100%;
+    width: 100%;
+    
+    background:url("../res/bg.jpeg");
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+
+}
+.blur {
+    
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(60px);
+    
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+    
+    
+  }

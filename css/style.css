@@ -2,7 +2,7 @@
 .interface {
     margin:auto;
     width: 80%;
-    height: 800px;
+    height: 80%;
     border: 1px solid #000;
     border-radius: 20px;
     background: black;
@@ -10,15 +10,21 @@
     font-family: Calibri;
     padding: 18px;
     box-shadow: 10px 10px 10px #4f4f4f4f;
+    display: grid;
+    gap: 20px;
+    grid-template-rows: 700px;
 
 }
+.text {
+    font-size: 40px;
+}
 .btn {
-    width: 120px;
-    height: 60px;
+    width: 40%;
+    height: 40px;
     background: #333;
-    border-radius: 20%;
+    border-radius: 10%;
     text-align: center;
-    line-height: 60px;
+    line-height: 40px;
     font-size:1.5rem;
     cursor: pointer;
     user-select: none;
@@ -32,11 +38,28 @@
 .btn.bg-gray{
     background: slategrey;
 }
+.btn.bg-orange{
+    background: orange;
+}
 .main_class{
     margin:auto;
     height: 100%;
     width: 100%;
     
-    background:url("../res/ytka.jpg");
+    background:url("../res/bg.jpeg");
+    height: 100%;
+    width: 100%;
     background-size: 100%;
+
 }
+.blur {
+    
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+    
+    
+  }
